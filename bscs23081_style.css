@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: poppins;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+ul li {
+  list-style: none;
+}
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: none;
+}
+.navbar .logo {
+  flex-basis: 40%;
+  padding: 20px 30px;
+}
+.navbar .logo img {
+  width: 180px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li {
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+.navbar ul li a i {
+  padding-right: 4px;
+}
+
+#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+#hero .BG {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#shoe {
+  position: absolute;
+  z-index: 10;
+  top: 15%;
+  left: 24%;
+  /* transform: rotate(-28deg); */
+  width: 700px;
+}
+
+/* Overview Section Styling */
+#overview {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.detail {
+  flex-basis: 50%;
+  text-align: center;
+}
+.detail h1 {
+  padding: 30px 0px;
+  font-size: 40px;
+}
+span {
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+.detail p {
+  padding: 30px 100px;
+  word-spacing: 6px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+}
+.button {
+  padding: 8px;
+  background: #ff0000;
+  width: 160px;
+  margin: 0px 37%;
+  border-radius: 45px;
+  font-size: 12px;
+  border: 2px solid #ff0000;
+  transition: 0.1s ease-in-out;
+}
+.button:hover {
+  background: none;
+}
+.button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.button:hover a {
+  color: #ff0000;
+}
+.detail_pic {
+  flex-basis: 50%;
+}
+
+/* Featues */
+#features {
+  height: 110vh;
+  width: 100%;
+  display: block;
+  background-color: rgba(131, 149, 154, 0.112);
+  align-items: center;
+}
+#features .f_head {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0px 0px;
+  height: 70px;
+}
+.f_detail {
+  display: flex;
+}
+.f_detail ul {
+  height: 100%;
+  padding: 5% 0px;
+  text-align: center;
+}
+#features .f_detail ul li {
+  margin-top: 30px;
+  padding: 5px 90px;
+}
+#features .f_detail ul li h1 {
+  margin-bottom: 10px;
+}
+#features .f_detail img {
+  height: 430px;
+  margin-top: 50px;
+  width: 350px;
+}
+.l1 li {
+  text-align: right;
+}
+.l1 li h1 i {
+  padding-left: 25px;
+}
+.l2 li {
+  text-align: left;
+}
+.l2 li h1 i {
+  padding-right: 25px;
+}
+#features .f_detail ul li h1 i:hover {
+  color: red;
+}
+
+/* Contact Info */
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #1b1b1b;
+  color: aliceblue;
+  padding: 50px 10px;
+  font-size: 10px;
+}
+#contact img {
+  width: 150px;
+}
+#contact p {
+  margin-top: 10px;
+  color: aliceblue;
+}
+.info1 p a,
+.social p a {
+  text-decoration: none;
+  color: #ff0000;
+}
+.info1 {
+  display: block;
+  justify-content: center;
+}
+#contact .info1 p a i {
+  font-size: 20px;
+  padding: 5px 5px 0px 0px;
+}
+#contact .info1 p :hover {
+  color: aliceblue;
+}
+.social {
+  display: block;
+  justify-content: center;
+}
+#contact .social p a i {
+  font-size: 20px;
+  padding: 10px 15px 0px 0px;
+}
+#contact .social p a :hover {
+  color: aliceblue;
+}
+/* Coryrights Section */
+#copyright {
+  width: 100%;
+  background-color: #1b1b1b;
+  text-align: center;
+  font-size: 12px;
+  color: aliceblue;
+  height: 5vh;
+}
+#copyright p span {
+  color: #ff0000;
+  font-size: 20px;
+  border: none;
+  padding: 0px 4px;
+}
+#copyright p i {
+  padding: 4px 4px 0px;
+}
+
+/* --------------------- Products Page Styling -------------------- */
+#bg2 {
+  background: #d6d6d6;
+}
+#latest {
+  margin-top: 50px;
+}
+.arrange {
+  display: block;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+.arrange h1 {
+  width: 100%;
+  margin-left: 40px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.list_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+.list_1 li {
+  flex-basis: 24%;
+  height: 420px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: block;
+  justify-content: space-between;
+  transition: 0.1s ease-in-out;
+}
+.list_1 li:hover {
+  background: #f0f0f0;
+  transform: translateY(-5px);
+}
+.list_1 li:hover h3 {
+  color: #ff0000;
+}
+.list_1 li img {
+  /* flex-basis: 60%; */
+  width: 60%;
+  margin-left: 70px;
+  height: 200px;
+}
+.content {
+  border-top: 2px solid rgba(108, 108, 108, 0.147);
+  padding: 4px 10px;
+  text-align: center;
+}
+.content h3 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 0px 8px;
+}
+.content p {
+  font-size: 14px;
+  color: rgb(100, 99, 99);
+  text-align: left;
+  padding: 0px 40px 5px 40px;
+}
+.list_2 {
+  display: flex !important;
+}
+
+/* Contact Page Styling */
+.issue {
+  height: 54.1vh;
+  text-align: center;
+  width: 100%;
+}
+.issue i {
+  font-size: 100px;
+  color: #7e7d7d;
+  margin-top: 100px;
+}
+.issue p {
+  padding: 0px 0px 40px;
+  font-size: 24px;
+  color: #7e7d7d;
+}

@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+  .navbar .logo img {
+    width: 135px;
+  }
+  .navbar ul li {
+    font-size: 13px;
+  }
+  #shoe {
+    top: 15%;
+    width: 500px;
+  }
+
+  /* Overview */
+  .detail {
+    font-size: 14px;
+  }
+  .detail h1 {
+    font-size: 30px;
+  }
+  .button {
+    width: 140px;
+  }
+
+  /* Features  */
+  #features {
+    height: 85vh;
+  }
+  #features .f_head {
+    font-size: 30px;
+    padding: 20px 0px 0px;
+  }
+  #features .f_detail {
+    margin-top: -30px;
+  }
+  #features .f_detail ul {
+    padding: none;
+  }
+  #features .f_detail ul li {
+    margin-top: none;
+    padding: 0px 80px;
+  }
+  #features .f_detail ul li h1 {
+    font-size: 18px;
+  }
+  #features .f_detail ul li p {
+    font-size: 13px;
+  }
+  #features .f_detail img {
+    height: 350px;
+    width: 290px;
+  }
+
+  /* Contact  */
+  #contact img {
+    width: 130px;
+  }
+
+  /* Copyrights */
+  #copyright {
+    font-size: x-small;
+  }
+
+  /* -------------------------------------------------------------- */
+  /* -------------------------------------------------------------- */
+  /* Product Page Responsiveness */
+  #latest {
+    margin-top: 40px;
+  }
+  .arrange {
+    padding: 30px 0px;
+  }
+  .arrange h1 {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .list_1 {
+    padding: 15px 0px;
+  }
+  .list_1 li {
+    flex-basis: 28%;
+    border-radius: 8px;
+  }
+  .list_1 li img {
+    width: 250px;
+    margin-left: 50px;
+    padding: 0px 10px;
+  }
+  .content h3 {
+    font-size: 14px;
+  }
+  .content p {
+    font-size: 12px;
+    padding: 0px 45px 5px 45px;
+  }
+
+  /* Contact Page Styling */
+  .issue {
+    height: 47.8vh;
+  }
+  .issue p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar .logo {
+    flex-basis: 38%;
+  }
+  #shoe {
+    width: 550px;
+    left: 22%;
+  }
+
+  /* Overview Responsive Styling */
+  .detail h1 {
+    font-size: 25px;
+  }
+  .detail p {
+    font-size: 12px;
+    word-spacing: 1px;
+    padding: 10px 60px 30px;
+  }
+  span {
+    border-bottom: 2px solid rgb(255, 0, 0);
+  }
+  .button {
+    font-size: 10px;
+    width: 110px;
+  }
+}
